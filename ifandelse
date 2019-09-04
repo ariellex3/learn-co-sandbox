@@ -1,0 +1,25 @@
+if (CONDITION TO BE MET)
+  CODE TO RUN IF CONDITION IS MET
+else
+  CODE TO RUN IF CONDITION IS NOT MET
+end
+
+
+if 1 + 1 == 2
+  puts "one plus one is two!"
+else
+  puts "one plus one is not two"
+end
+
+
+name = gets.chomp
+
+if name == "Ari"
+  puts "Welcome, Ari!"
+elsif name == "Joe"
+  puts "Hey, Joe!"
+elsif name == "Linda"
+  puts "Hi, Linda!"
+else
+  puts "Hello, Stranger."
+end
